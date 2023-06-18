@@ -163,6 +163,7 @@ button{
   top: 0;
   left: 0;
   width: 100%;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .05);
 }
 .mobileMenu,
 .mobileNavbtn{
@@ -1173,7 +1174,7 @@ button{
   color: var(--main-heading-color);
   line-height: 1.5;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .subbaner__p{
   font-size: 15px;
@@ -1289,7 +1290,7 @@ button{
   width: 50%;
 }
 .catedetails-col1__link{
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   color: #333;
   padding: 10px 13px;
@@ -1456,6 +1457,9 @@ button{
 .loginlink:hover{
   color: #fc5d5d;
 }
+.procardWrpr{
+  margin-bottom: 50px;
+}
 @media(max-width:539px){
   .loginsbox{
     width: 100%;
@@ -1469,4 +1473,32 @@ button{
   .input2 {
     margin-bottom: 17px;
   }
+}
+/* help page start */
+.faqbox{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.faqboxhdr{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faqboxhdr__h{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--main-heading-color);
+}
+.faqboxbdy{
+  padding: 10px 0;
+}
+.faqboxbdy__h{
+  font-size: 16px;
+  font-weight: bold;
+  color: #374151;
+}
+.faqboxhdr i{
+  font-size: 18px;
+  color: var(--main-heading-color);
 }
