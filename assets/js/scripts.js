@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    $(".faqboxhdr").click(function() {
+        $(this).toggleClass("active");
+        $(this).next(".faqboxbdy").slideToggle(300);
+    });
+    // 
     $(window).scroll(function() {
         if ($(document).scrollTop() > 400) {
             $('.header').addClass('sticky');

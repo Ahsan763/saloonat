@@ -1030,6 +1030,18 @@ button{
     padding: 6px 12px;
     font-size: 1rem;
   }
+  .navbar_noti_box_details {
+    width: 260px !important;
+    height: 300px;
+  }
+  .avlablbox__h {
+    font-size: 12px;
+  }
+  .pdtMaincol2-contctbox-p {
+    font-size: 14px;
+    color: #9ca3af;
+    margin-bottom: 35px;
+}
 }
 @media(max-width:767px){
   .offcanvImg {
@@ -1476,7 +1488,8 @@ button{
 }
 /* help page start */
 .faqbox{
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   border-bottom: 1px solid #e5e7eb;
 }
 .faqboxhdr{
@@ -1484,21 +1497,37 @@ button{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 .faqboxhdr__h{
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 600;
   color: var(--main-heading-color);
 }
 .faqboxbdy{
   padding: 10px 0;
+  display: none;
 }
 .faqboxbdy__h{
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 600;
   color: #374151;
+  margin-bottom: 10px;
 }
 .faqboxhdr i{
   font-size: 18px;
   color: var(--main-heading-color);
+}
+.faqboxbdy__p{
+  font-size: 16px;
+  line-height: 1.7;
+}
+.faqboxhdr .fa-minus{
+  display: none;
+}
+.faqboxhdr.active .fa-plus{
+  display: none;
+}
+.faqboxhdr.active .fa-minus{
+  display: block;
 }
