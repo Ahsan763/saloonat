@@ -565,12 +565,59 @@
     }
  
 }
-
+@media(max-width:767px) {
+    .pdtabsbtnslist{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .pdtMain-wrapper{
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+    .pdtMaincol1,
+    .pdtMaincol2{
+        width: 100%;
+    }
+    .btmstickybar__h2 {
+        font-size: 12px;
+    }
+    .btmstickybar__prc {
+        font-size: 13px;
+    }
+}
 @media(max-width:539px) {
     .procard {
         width: 100%;
     }
     .products {
         padding: 15px 0 30px 0;
+    }
+    .pdtabsbtnslist {
+        row-gap: 10px;
+    }
+    .fser-wrpr{
+        row-gap: 10px;
+    }
+    .pdtMaincol2-contctbox-p {
+        margin-bottom: 15px;
+    }
+    .btmstickybar {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        row-gap: 10px;
+        padding: 8px 12px;
+        bottom: 5px;
+    }
+    .btmstickybar__btn {
+        padding: 8px 8px;
+        font-size: 10px;
+        
+    }
+    .productdetails-img {
+        height: 151px;
+    }
+    .pdtMaincol1-hboxGall {
+        width: 135px;
     }
 }

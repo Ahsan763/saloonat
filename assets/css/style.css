@@ -1273,7 +1273,7 @@ button{
     width: 100%;
   }
   .subbaner__h {
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 12px;
   }
   .subbaner__p {
@@ -1473,6 +1473,12 @@ button{
   margin-bottom: 50px;
 }
 @media(max-width:539px){
+  .catedetails {
+    padding: 30px 0;
+  }
+  .catedetails-col1box {
+    padding-bottom: 10px;
+  }
   .loginsbox{
     width: 100%;
     max-width: 450px;
@@ -1485,6 +1491,7 @@ button{
   .input2 {
     margin-bottom: 17px;
   }
+
 }
 /* help page start */
 .faqbox{
