@@ -34,11 +34,11 @@
     padding: 12px 20px 12px 90px;
 }
 @media(max-width:1023px){
-    .mobileMenu {
+    .rtl .mobileMenu {
         left: auto;
         right: -100%;
     }
-    .mobileMenu.active {
+    .rtl .mobileMenu.active {
         left: auto;
         right: 0%;
     }
