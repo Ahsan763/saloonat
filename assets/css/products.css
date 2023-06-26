@@ -1,7 +1,7 @@
 .products {
     position: relative;
     z-index: 0;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 .products::after{
     content: "";
@@ -95,6 +95,10 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
 }
+.procard__tag-wrpr{
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
 .procard__tag {
     width: fit-content;
     line-height: 1;
@@ -103,10 +107,14 @@
     font-weight: 500;
     color: var(--white);
     border-radius: 5px;
-    margin-bottom: 15px;
     background-color: #fc5d5d;
     transition: all 0.1s ease-in-out;
     cursor: pointer;
+}
+.procard__tag.flag{
+    background-color: transparent;
+    color: #fc5d5d;
+    border: 1px solid #fc5d5d;
 }
 .procard__desc {
     font-size: 1.4rem;

@@ -1,4 +1,14 @@
 $(document).ready(function() {
+    $(".prjtovrbox1-btn").click(function(){
+        $(this).toggleClass("active")
+    })
+    $("body").click(function(){
+        $(".prjtovrbox1-btn").removeClass("active")
+    })
+    $('.prjtovrbox1-btn,.prjtovrbox1-drp').click(function(event) {
+		event.stopPropagation(); // prevents executing the above event
+	});
+    // 
     $(".faqboxhdr").click(function() {
         $(this).toggleClass("active");
         $(this).next(".faqboxbdy").slideToggle(300);

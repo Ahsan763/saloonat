@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Saloonat | Login </title>
+	<title>Saloonat | Add Saloon </title>
 	<!-- Favicons -->
 	<link href="assets/images/logo.png" rel="icon">
 	<!-- font aweasome -->
@@ -40,11 +40,11 @@
 					<li class="navlist__item">
 						<a href="categories.html" class="navlist__link">Categories</a>
 					</li>
-					<li class="navlist__item">
-						<a href="add-saloon.html" class="navlist__link">Add Saloon</a>
+					<li class="navlist__item ">
+						<a href="add-saloon.html" class="navlist__link active">Add Saloon</a>
 					</li>
 					<li class="navlist__item">
-						<a href="help.html" class="navlist__link">Help & Support</a>
+						<a href="#" class="navlist__link">Help & Support</a>
 					</li>
 				</ul>
 				<div class="headerSide2 flex-i">
@@ -115,7 +115,6 @@
 							</ul>
 						</div>
 					</div>
-					
 				</div>
 				<div class="mobileNavbtn">
 					<i class="fa-solid fa-bars-sort"></i>
@@ -163,7 +162,7 @@
 					<a href="categories.html" class="navlist__link">Categories</a>
 				</li>
 				<li class="navlist__item">
-					<a href="add-saloon.html" class="navlist__link">Add Saloon</a>
+					<a href="add-saloon.html" class="navlist__link active">Add Saloon</a>
 				</li>
 				<li class="navlist__item">
 					<a href="help.html" class="navlist__link">Help & Support</a>
@@ -171,7 +170,6 @@
 			</ul>
 		
 			<div class="mobileMenu__footer">
-				
 				<ul class="hdrsmlist flex-i">
 					<li class="hdrsmlist__item">
 						<a href="#" class="hdrsmlist__link flex-a">
@@ -202,34 +200,143 @@
 			</div>
 		</div>
 	</header>
+	<!-- header end -->
+    <div class="subbaner">
+        <h2 class="subbaner__h">Add Your Saloon</h2>
+        <p class="subbaner__p">Add Your Saloon Below...</p>
+    </div>
     <!-- sub banner end -->
-	<div class="logins ">
-		<div class="container">
-			<img src="assets/images/logo.png" alt="" class="logins-logo">
-			<div class="logins-wrpr flex-a">
-				<div class="loginsbox">
-					<h2 class="loginsbox__h">Sign in to your account</h2>
-					<form action="">
-						<input type="text" class="form-control input1 input2" placeholder="Your Email Address" />
-						<input type="text" class="form-control input1 input2" placeholder="Your Password" />
-						<div class="flex-i justify-between">
-							<div class="flex-i ckbwrpr gap-2">
-								<input type="checkbox">
-								Remember me
-							</div>
-							<div class="flex-i ckbwrpr gap-2">
-								<a href="#">
-									Forgot your password?
-								</a>
-							</div>
+    <div class="catepse">
+        <div class="container">
+			<form class="row">
+				<div class="col-md-6">
+					<div class="sblock">
+						<label class="input1__label">Name Of Saloon</label>
+						<input type="text" class="form-control input1" placeholder="My Home Address">
+					</div>
+					<div class="sblock">
+						<label class="input1__label">Details About Saloon</label>
+						<textarea type="text" class="form-control input1 input1--textarea"></textarea>
+					</div>
+					<div class="sblock">
+						<label class="input1__label">Description</label>
+						<input type="text" class="form-control input1" placeholder="My Home Address">
+					</div>
+					<div class="sblock row flex-i">
+						<div class="col-sm-6">
+							<label class="input1__label">Country</label>
+							<select type="text" class="form-select input1">
+								<option value="" selected disabled>Select your country</option>
+								<option value="">Pakistan</option>
+								<option value="">America</option>
+								<option value="">Egypt</option>
+								<option value="">India</option>
+								<option value="">France</option>
+							</select>
 						</div>
-						<button type="submit" class="form-control input1 input2 input2btn">Signup</button>
-					</form>
-					<a href="register.html" class="loginlink">Don't Have An Account ? Register Here</a>
+						<div class="col-sm-6">
+							<label class="input1__label">Add Experience</label>
+							<select type="text" class="form-select input1">
+								<option value="" selected disabled>Years of Experience</option>
+								<option value="">1 Years</option>
+								<option value="">2 Years</option>
+								<option value="">3 Years</option>
+								<option value="">4 Years</option>
+								<option value="">5 Years</option>
+							</select>
+						</div>
+					</div>
+					<div class="sblock row flex-i">
+						<div class="col-sm-6">
+							<label class="input1__label">Status Of Saloon</label>
+							<select type="text" class="form-select input1">
+								<option value="" selected disabled>Add status Of Saloon</option>
+								<option value="">Open</option>
+								<option value="">Closed</option>
+								<option value="">Waiting</option>
+								<option value="">Booked</option>
+							</select>
+						</div>
+						<div class="col-sm-6">
+							<label class="input1__label">Staff members</label>
+							<select type="text" class="form-select input1">
+								<option value="" selected disabled>Add Staff members</option>
+								<option value=""> less than 5 persons</option>
+								<option value="">5-10 persons</option>
+								<option value="">10-15 persons</option>
+								<option value="">more than 15 persons</option>
+							</select>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-	</div>
+				<div class="col-md-6">
+					<div class="sblock">
+						<div class="input1__label">Add Main Image</div>
+						<input type="file" name="" id="img1" class="imgfld">
+						<label for="img1" class="flex-a flex-col imgfldlabel input1 ">
+							<i class="fa-solid fa-cloud-arrow-up filupicn"></i>
+							<p class="p1">Add Main Image</p>
+							<p class="p2">Recommend size 1215 * 385</p>
+						</label>
+					</div>
+					<label class="input1__label">Add Sub Images</label>
+					<div class="sblock row flex-i">
+						<div class="col-sm-4">
+							<input type="file" name="" id="img1" class="imgfld">
+							<label for="img1" class="flex-a flex-col imgfldlabel imgfldlabel2 input1 ">
+								<i class="fa-solid fa-cloud-arrow-up filupicn"></i>
+								<p class="p1">Sub Image</p>
+								<p class="p2">Recommend size 270 * 193</p>
+							</label>
+						</div>
+						<div class="col-sm-4">
+							<input type="file" name="" id="img1" class="imgfld">
+							<label for="img1" class="flex-a flex-col imgfldlabel imgfldlabel2 input1 ">
+								<i class="fa-solid fa-cloud-arrow-up filupicn"></i>
+								<p class="p1">Sub Image</p>
+								<p class="p2">Recommend size 270 * 193</p>
+							</label>
+						</div>
+						<div class="col-sm-4">
+							<input type="file" name="" id="img1" class="imgfld">
+							<label for="img1" class="flex-a flex-col imgfldlabel imgfldlabel2 input1 ">
+								<i class="fa-solid fa-cloud-arrow-up filupicn"></i>
+								<p class="p1">Sub Image</p>
+								<p class="p2">Recommend size 270 * 193</p>
+							</label>
+						</div>
+						<div class="col-sm-4">
+							<input type="file" name="" id="img1" class="imgfld">
+							<label for="img1" class="flex-a flex-col imgfldlabel imgfldlabel2 input1 ">
+								<i class="fa-solid fa-cloud-arrow-up filupicn"></i>
+								<p class="p1">Sub Image</p>
+								<p class="p2">Recommend size 270 * 193</p>
+							</label>
+						</div>
+						<div class="col-sm-4">
+							<input type="file" name="" id="img1" class="imgfld">
+							<label for="img1" class="flex-a flex-col imgfldlabel imgfldlabel2 input1 ">
+								<i class="fa-solid fa-cloud-arrow-up filupicn"></i>
+								<p class="p1">Sub Image</p>
+								<p class="p2">Recommend size 270 * 193</p>
+							</label>
+						</div>
+						<div class="col-sm-4">
+							<input type="file" name="" id="img1" class="imgfld">
+							<label for="img1" class="flex-a flex-col imgfldlabel imgfldlabel2 input1 ">
+								<i class="fa-solid fa-cloud-arrow-up filupicn"></i>
+								<p class="p1">Sub Image</p>
+								<p class="p2">Recommend size 270 * 193</p>
+							</label>
+						</div>
+					</div>
+					<button type="submit" class="inputF__btn inputF__btn2 flex-a">
+						Submit
+					</button>
+				</div>
+			</form>
+        </div>
+    </div>
     <!--  -->
     <footer class="footer">
 		<div class="footertop">
