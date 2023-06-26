@@ -33,6 +33,10 @@
 .rtl .banner-search__input {
     padding: 12px 20px 12px 90px;
 }
+.rtl .prjtovrbox1-drp{
+    left: auto;
+    right: 0;
+}
 @media(max-width:1023px){
     .rtl .mobileMenu {
         left: auto;
