@@ -447,6 +447,11 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+.offcanbox__label2{
+    font-weight: 500;
+    color: #4ea5c4;
+    font-size: 14px;
+}
 @media(max-width:1199px){
     .products {
         padding: 40px 0;

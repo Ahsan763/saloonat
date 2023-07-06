@@ -1630,3 +1630,11 @@ button{
   color: #8E8E8E;
   font-size: 13px;
 }
+.rated{
+  color: #cfbb58;
+}
+.offcanbox__label2{
+  font-weight: 500;
+  color: #4ea5c4;
+  font-size: 12px !important;
+}
